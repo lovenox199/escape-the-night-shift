@@ -633,27 +633,6 @@ export const LECTURE_DETAILS={
   ],
   "microbiome": [
     {
-      "title": "Nutraceuticals: Evidence and Clinical Boundaries",
-      "cards": [
-        [
-          "Selected adjunctive evidence",
-          "The 2022 WFSBP/CANMAT taskforce supports selected agents, including EPA-rich omega-3s, with agent-specific recommendation strengths and limitations."
-        ],
-        [
-          "Methylfolate and deficiency",
-          "Selected folate-based adjuncts may be considered; identify and treat nutritional deficiency when indicated. Routine genetic testing is not a prerequisite for standard MDD care."
-        ],
-        [
-          "Safety and product quality",
-          "Review actual ingredients, dose, interactions, cost, and quality. St John’s wort has major metabolic and serotonergic interactions; SAMe may cause activation."
-        ]
-      ],
-      "sources": [
-        "supplements",
-        "canmat"
-      ]
-    },
-    {
       "title": "Probiotics and the Microbiome: Current Application",
       "cards": [
         [

@@ -215,3 +215,18 @@
 /* Lecture typography uses the bundled Google Fonts family. */
 .phase-teach .teaching,.phase-teach .teaching h1{font-family:'Atkinson Hyperlegible',Arial,Helvetica,sans-serif}
 .phase-teach .teaching h1{font-weight:700;letter-spacing:0}
+/* Replace the homepage circle with the moon-and-clouds artwork. */
+.cast .moon {
+  width: min(105%, 560px);
+  height: auto;
+  aspect-ratio: 1451 / 1084;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url('assets/home-moon-clouds.png') center / contain no-repeat;
+  border-radius: 0;
+  box-shadow: none;
+  opacity: .85;
+  pointer-events: none;
+}
+

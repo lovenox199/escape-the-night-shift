@@ -20,7 +20,7 @@ function musicControls(){return `<div class="lobby-music" aria-label="Lobby musi
 const lecturePen=new LecturePen();
 const initial=new URLSearchParams(location.search);const initialMode=initial.get('view');
 function toast(s){$('#toast').textContent=s;$('#toast').classList.add('visible');clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('#toast').classList.remove('visible'),6000);}
-const sprite=(t,cls='')=>`<img class="sprite ${cls}" src="${window.NIGHT_SHIFT_CHARACTERS?.[t.id] || 'assets/character-'+t.id+'.png'}" alt="${esc(t.character)}" draggable="false">`;
+const sprite=(t,cls='')=>`<img class="sprite ${t.id==='blue'?'sprite-ghost':''} ${cls}" src="${window.NIGHT_SHIFT_CHARACTERS?.[t.id] || 'assets/character-'+t.id+'.png'}" alt="${esc(t.character)}" draggable="false">`;
 const brand=()=>`<a class="brand" href="./" aria-label="Escape the Night Shift home"><span class="brand-mark">☾</span><span>ESCAPE THE<br><b>NIGHT SHIFT</b></span></a>`;
 function header(right=''){return `<header>${brand()}<div class="header-right">${right}</div></header>`;}
 function teamCards(clickable=false){return TEAMS.map(t=>`<${clickable?'button':'div'} ${clickable?`type="button" data-color="${t.id}"`:''} class="team-card" style="--team:${t.color}">${sprite(t)}<span class="team-dot"></span><strong>${t.name}</strong><small>${t.character}</small></${clickable?'button':'div'}>`).join('');}

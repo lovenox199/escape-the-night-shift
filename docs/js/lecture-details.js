@@ -141,7 +141,7 @@ export const LECTURE_DETAILS={
         ],
         [
           "Plasticity",
-          "Monoamine effects occur quickly, but fuller clinical improvement may involve downstream circuit and synaptic adaptation. Neurotrophic/BDNF pathways are proposed contributors, not a routine diagnostic test."
+          "Monoamine effects occur quickly, but fuller clinical improvement may involve downstream circuit and synaptic adaptation. Neurotrophic/BDNF pathways are proposed contributors."
         ]
       ],
       "sources": [
@@ -216,7 +216,7 @@ export const LECTURE_DETAILS={
   ],
   "safety": [
     {
-      "title": "Suicide Risk: Direct Clinical Assessment",
+      "title": "Suicide Risk",
       "cards": [
         [
           "Characterize current thoughts",
@@ -224,11 +224,11 @@ export const LECTURE_DETAILS={
         ],
         [
           "Acute and historical risk",
-          "Assess prior attempts, recent losses, intoxication, agitation, insomnia, psychosis, hopelessness, and recent changes in treatment or support."
+          "Acute and historical risk: Assess prior attempts, recent losses, intoxication, agitation, insomnia, psychosis, hopelessness, and recent changes in treatment or support."
         ],
         [
           "Protective factors and collateral",
-          "Assess supports, reasons for living, willingness to accept help, and capacity to follow a plan; obtain collateral when indicated."
+          "Protective factors: Assess supports, reasons for living, willingness to accept help, and capacity to follow a plan; obtain collateral when indicated."
         ]
       ],
       "sources": [
@@ -262,11 +262,11 @@ export const LECTURE_DETAILS={
       "cards": [
         [
           "Common psychiatric comorbidities",
-          "Anxiety, PTSD, substance-use disorders, and insomnia may worsen functioning or complicate adherence and treatment response."
+          "Common psychiatric comorbidities: Anxiety, PTSD, substance-use disorders, and insomnia may worsen functioning or complicate adherence and treatment response."
         ],
         [
           "Medical contributors",
-          "Chronic pain, diabetes, cardiovascular disease, obesity, and sleep apnea often coexist; coordinate treatment rather than attributing every symptom to MDD."
+          "Medical contributors: Chronic pain, diabetes, cardiovascular disease, obesity, and sleep apnea often coexist; coordinate treatment rather than attributing every symptom to MDD."
         ],
         [
           "Treatment choice",
@@ -393,7 +393,7 @@ export const LECTURE_DETAILS={
   ],
   "followup": [
     {
-      "title": "Adequate Antidepressant Trial: VA/DoD Guidance",
+      "title": "Adequate Antidepressant Trial",
       "cards": [
         [
           "Exposure",
@@ -458,7 +458,7 @@ export const LECTURE_DETAILS={
   ],
   "novel": [
     {
-      "title": "Novel Pharmacotherapy: Distinct Indications",
+      "title": "Novel Pharmacotherapy",
       "cards": [
         [
           "Dextromethorphan–bupropion",
@@ -501,7 +501,7 @@ export const LECTURE_DETAILS={
   ],
   "trd": [
     {
-      "title": "Treatment-Resistant Depression: Definition",
+      "title": "Treatment-Resistant Depression",
       "cards": [
         [
           "Common operational definition",

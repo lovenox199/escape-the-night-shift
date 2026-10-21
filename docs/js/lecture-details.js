@@ -620,7 +620,7 @@ export const LECTURE_DETAILS={
         ],
         [
           "Gut–brain connection",
-          "Fiber feeds gut microbes that produce short-chain fatty acids such as butyrate, which can influence gut-barrier and immune signaling. Diet and exercise may affect these pathways; their role in the observed antidepressant benefit remains a proposed mechanism."
+          "Fiber feeds gut microbes that produce short-chain fatty acids such as butyrate, which can influence gut-barrier and immune signaling. 2025 CANMAT task force places probiotics as a third-line adjunctive option, particularly for partial response to antidepressants"
         ]
       ],
       "sources": [
@@ -633,19 +633,19 @@ export const LECTURE_DETAILS={
   ],
   "microbiome": [
     {
-      "title": "Probiotics and the Microbiome: Current Application",
+      "title": "2026 American College of Lifestyle Medicine consensus on MDD",
       "cards": [
         [
           "Clinical signal",
-          "The supplied taskforce guideline supports adjunctive probiotics provisionally, while available trials remain heterogeneous in strain, dose, duration, and population."
+          "Number Needed to Treat (NNT): ACLM 2026 expert consensus reports an NNT of 2 for structured physical activity in MDD."
         ],
         [
           "What remains uncertain",
-          "Results from one preparation do not generalize to all products; long-term outcomes and reliable patient selection remain incompletely established."
+          "Nutritional Intervention: Mediterranean / anti-inflammatory dietary patterns have an NNT of 4"
         ],
         [
           "Patient counseling",
-          "Discuss potential adjunctive benefit and uncertainty without replacing established treatment. Routine commercial stool testing does not guide standard antidepressant selection."
+          "SSRI Comparison: Standard SSRI monotherapy has an <strong>NNT of ~7 for symptom remission."
         ]
       ],
       "sources": [

@@ -230,3 +230,13 @@
   pointer-events: none;
 }
 
+.phase-teach nav.host-controls {
+  height: auto;
+  min-height: 70px;
+}
+
+.phase-teach nav.host-controls > div {
+  flex-wrap: wrap;
+  min-width: 0;
+  max-width: 100%;
+}

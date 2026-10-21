@@ -18,4 +18,4 @@ export async function ensureSession(){
  return session.access_token;
 }
 export function signOut(){session=null;localStorage.removeItem(authKey);}
-export async function rpc(name,args={}){return request('/rest/v1/'+name,args,await ensureSession());}
+export async function rpc(name,args={}){return request('/rest/v1/rpc/'+name,args,await ensureSession());}

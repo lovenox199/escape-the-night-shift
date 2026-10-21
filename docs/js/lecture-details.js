@@ -22,7 +22,7 @@ export const LECTURE_DETAILS={
       ]
     },
     {
-      "title": "SIGECAPS: Eight Symptoms + Depressed Mood",
+      "title": "SIGECAPS",
       "cards": [
         [
           "S — Sleep",
@@ -63,7 +63,7 @@ export const LECTURE_DETAILS={
       "mnemonic": true
     },
     {
-      "title": "DSM-5-TR: Frequency, Impairment, and Exclusions",
+      "title": "DSM-5 Stuff",
       "cards": [
         [
           "Frequency",
@@ -415,7 +415,7 @@ export const LECTURE_DETAILS={
   ],
   "pediatrics": [
     {
-      "title": "Pediatric Depression: Assessment and Treatment",
+      "title": "Pediatric Depression",
       "cards": [
         [
           "Presentation and assessment",
@@ -443,11 +443,11 @@ export const LECTURE_DETAILS={
         ],
         [
           "Start and monitor",
-          "Start at an age-appropriate low dose and titrate by response/tolerability. Track activation, sleep, agitation, suicidality, adherence, growth, and functioning."
+          "Discuss the boxed warning, symptoms requiring contact, medication access/storage, and follow-up. Untreated depression also carries substantial risk. Track activation, sleep, agitation, suicidality, adherence, growth, and functioning."
         ],
         [
           "Family safety plan",
-          "Discuss the boxed warning, symptoms requiring contact, medication access/storage, and follow-up. Untreated depression also carries substantial risk."
+          "USPSTF Screening: Grade B recommendation for adolescents aged 12–18; insufficient evidence (Grade I) for screening children"
         ]
       ],
       "sources": [
